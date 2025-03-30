@@ -1,0 +1,53 @@
+.box-container {
+    display: flex;
+    justify-content: space-between; /* Distribuir las cajas de manera equitativa */
+    gap: 20px; /* Espacio entre cada caja */
+    margin-top: 20px;
+}
+
+.box {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1; /* Hacer que todos los elementos tengan el mismo tamaño */
+    min-width: 0; /* Para evitar que las cajas se expandan más de lo necesario */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo específico para la caja de saldo */
+.box-caja {
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid #17a2b8;
+}
+
+.box-caja h4 {
+    color: white;
+}
+
+.box-caja p {
+    color: white;
+}
+
+/* Elimina el subrayado de los enlaces */
+.no-underline {
+    text-decoration: none;
+}
+
+/* Puedes agregar más estilos para cuando el enlace se pase el ratón (hover) */
+.no-underline:hover {
+    text-decoration: none; /* Asegura que no aparezca el subrayado al hacer hover */
+}
+

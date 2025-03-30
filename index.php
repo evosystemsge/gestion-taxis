@@ -249,4 +249,8 @@ $result_registros = mysqli_query($conn, $query_registros);
     </div>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 236ec87 (Agregando nuevos archivos y cambios)
